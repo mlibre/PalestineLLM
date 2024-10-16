@@ -10,3 +10,5 @@
 <https://colab.research.google.com/drive/1tEd1FrOXWMnCU9UIvdYhs61tkxdMuKZu?usp=sharing#scrollTo=2eSvM9zX_2d3>
 <https://unsloth.ai/blog/contpretraining>
 <https://huggingface.co/docs/trl/sft_trainer#train-on-completions-only>
+<https://huggingface.co/blog/mlabonne/sft-llama3>
+<https://mlabonne.github.io/blog/posts/Fine_tune_Mistral_7b_with_DPO.html>
