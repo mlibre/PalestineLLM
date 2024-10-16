@@ -1,0 +1,9 @@
+{
+	"name": "john",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "john.js",
+	"scripts": {
+		"start": "node ."
+	}
+}
