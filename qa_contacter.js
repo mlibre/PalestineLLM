@@ -20,6 +20,10 @@ function findAndConcatQAJSONL(directory) {
 
 function concatQAJSONL(filePath) {
     const data = fs.readFileSync(filePath, 'utf8').trim();
+    if(!data)
+    {
+        throw new Error(`File is empty: ${filePath}`);
+    }
     const lines = data.split('\n').filter(line => line.trim() !== ''); // Filter empty lines
 
     const validLines = lines.filter(line => {
